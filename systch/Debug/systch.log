@@ -1,0 +1,4 @@
+﻿  systch.cpp
+C:\Users\User\source\repos\systch\systch\systch.cpp(42,10): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\User\source\repos\systch\systch\systch.cpp(46,10): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  systch.vcxproj -> C:\Users\User\source\repos\systch\Debug\systch.exe
