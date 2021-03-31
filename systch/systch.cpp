@@ -22,7 +22,7 @@ int main()
 		//Checking the correctness of the number
 		if (int (num[i]>57)) 
 		{
-			if (int (num[i] - '7') >= ss)
+			if (int (num[i] - 'A' + 10) >= ss)
 			{			
 				cout << "Incorrect number";
 				exit(1);
@@ -39,7 +39,7 @@ int main()
 		//translate to decimal numeral system
 		if (int(num[i] > 64))
 		{
-			d = d + (int(num[i]-'7')) * (pow(ss, ii));
+			d = d + (int(num[i]-'A' + 10)) * (pow(ss, ii));
 		}
 		if (int(num[i] <= 64)) 
 		{
